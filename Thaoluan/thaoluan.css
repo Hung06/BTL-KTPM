@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(117, 215, 232, 0.5) 50%, rgba(117, 215, 232, 0.5) 50%), url(img/home.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0 20px;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 35px;
+    font-family: Arial;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(222, 232, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #55aace;
+}
+.btn-login {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #F5F5F5;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 4px;
+  }
+  
+  .btn-login:hover {
+    background-color: #55aace;
+    color: #FFF;
+  }
+  
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #55aace;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #55aace;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #55aace;
+    border: 2px solid #55aace;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+  
+  /* Pricing screen */
+  .pricing__screen {
+    text-align: center;
+  }
+  
+  .pricing__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Course tabs */
+  .course-tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-tabs li {
+    margin: 0 10px;
+  }
+  
+  .course-tabs li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .course-tabs li.active a {
+    color: #ff0000;
+  }
+  
+  .course-tabs li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Tab content */
+  .tab-content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Title container */
+  .title-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .tab-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* List product container */
+  .list-product-container {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  /* Course card */
+  .course-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  .course-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .course-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .course-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .text-code {
+    color: #ff0000;
+  }
+  
+  .text-off {
+    color: #999;
+  }
+  
+  .buy-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .buy-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Additional styles */
+  .scroll-horizontal {
+    overflow-x: auto;
+  }
+  

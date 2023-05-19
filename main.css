@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(117, 215, 232, 0.5) 50%, rgba(117, 215, 232, 0.5) 50%), url(img/home.jpg);
+    background-blend-mode: normal;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0 20px;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 35px;
+    font-family: Arial;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(222, 232, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #55aace;
+}
+.btn-login {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #F5F5F5;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 4px;
+  }
+  
+  .btn-login:hover {
+    background-color: #55aace;
+    color: #FFF;
+  }
+  
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #55aace;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #55aace;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #55aace;
+    border: 2px solid #55aace;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .controls span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+.prev-slide {
+  float: left;
+}
+
+.next-slide {
+  float: right;
+}
+.image-slider {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    }
+    
+    .slides-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    }
+    
+    .slide {
+    flex: 0 0 25%;
+    height: 100%;
+    overflow: hidden;
+    }
+    
+    .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .image-list {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    }
+    
+    /* Thêm đoạn mã này để căn giữa dọc cho hình ảnh */
+    .slide img {
+    object-fit: contain;
+    object-position: bottom right;
+    }
+    
+  
+  
+
+  
+  
+  
